@@ -17,7 +17,7 @@ const projects = [
       solution:
         "NeuroNote provides an AI-assisted learning workflow where users can upload their study materials, generate summaries, and create quizzes to reinforce their understanding of the content.",
 
-      role: "Frontend Developer & Frontend–Backend Integration",
+      role: "Frontend Developer & Frontend–Backend Integration — Group Project",
 
       contributions: [
         "Developed the application interface based on designs created in Figma.",
@@ -39,7 +39,7 @@ const projects = [
       solution:
         "NeuroNote menyediakan alur pembelajaran berbasis AI yang memungkinkan pengguna mengunggah materi, membuat rangkuman, dan menghasilkan kuis untuk membantu memperkuat pemahaman terhadap materi.",
 
-      role: "Frontend Developer & Integrasi Frontend–Backend",
+      role: "Frontend Developer & Integrasi Frontend–Backend — Proyek Kelompok",
 
       contributions: [
         "Mengembangkan antarmuka aplikasi berdasarkan desain yang dibuat menggunakan Figma.",
@@ -80,7 +80,7 @@ const projects = [
       solution:
         "Car Dealership Finder allows users to search for dealerships by location, view dealership information, and submit reviews. IBM AI Sentiment Analysis automatically classifies reviews as positive, neutral, or negative to help users better understand customer feedback.",
 
-      role: "Full-Stack Developer",
+      role: "Full-Stack Developer — Individual Project",
 
       contributions: [
         "Designed and developed the application independently.",
@@ -102,7 +102,7 @@ const projects = [
       solution:
         "Car Dealership Finder memungkinkan pengguna mencari dealer berdasarkan lokasi, melihat informasi dealer, dan memberikan ulasan. IBM AI Sentiment Analysis secara otomatis mengklasifikasikan ulasan menjadi sentimen positif, netral, atau negatif sehingga pengguna dapat lebih mudah memahami pengalaman pelanggan sebelumnya.",
 
-      role: "Full-Stack Developer",
+      role: "Full-Stack Developer — Proyek Individu",
 
       contributions: [
         "Merancang dan mengembangkan aplikasi secara mandiri.",
@@ -114,7 +114,7 @@ const projects = [
 
     technologies: ["JavaScript", "HTML", "Python (Node.js)", "CSS"],
 
-    github: "https://github.com/Theofit31/xrwvm-fullstack_developer_capstone",
+    github: "https://github.com/Theofit31/car-dealership-finder",
 
     cover: "/images/projects/car-dealership/car-dealership.png",
 
@@ -142,7 +142,7 @@ const projects = [
       solution:
         "Calcurify allows users to calculate their daily calorie needs and analyze the nutritional content of food. Users can describe what they ate in natural language, such as 'I ate 200 grams of fried rice', and the system identifies the food and estimates its calories, protein, fat, and carbohydrate content.",
 
-      role: "Frontend Developer & Backend Developer (Authentication and BMR)",
+      role: "Frontend Developer & Backend Developer (Authentication and BMR) — Group Project",
 
       contributions: [
         "Developed the application interface using React and TypeScript.",
@@ -151,6 +151,7 @@ const projects = [
         "Implemented BMR calculation based on gender, weight, height, age, and activity level.",
         "Integrated BMR functionality with user data storage using Firebase Firestore.",
         "Connected the frontend with backend APIs to display calculation results and user data.",
+        "Collaborated with team members throughout the development process.",
       ],
     },
 
@@ -166,7 +167,7 @@ const projects = [
       solution:
         "Calcurify memungkinkan pengguna menghitung kebutuhan kalori harian dan menganalisis kandungan nutrisi makanan. Pengguna dapat mendeskripsikan makanan menggunakan bahasa sehari-hari, seperti 'Saya makan 200 gram nasi goreng', kemudian sistem mengenali makanan tersebut dan memperkirakan jumlah kalori, protein, lemak, serta karbohidrat.",
 
-      role: "Frontend Developer & Backend Developer (Autentikasi dan BMR)",
+      role: "Frontend Developer & Backend Developer (Autentikasi dan BMR) — Proyek Kelompok",
 
       contributions: [
         "Mengembangkan antarmuka aplikasi menggunakan React dan TypeScript.",
@@ -175,6 +176,7 @@ const projects = [
         "Mengimplementasikan perhitungan BMR berdasarkan jenis kelamin, berat badan, tinggi badan, usia, dan tingkat aktivitas.",
         "Mengintegrasikan fitur BMR dengan penyimpanan data pengguna menggunakan Firebase Firestore.",
         "Menghubungkan frontend dengan API backend untuk menampilkan hasil perhitungan dan data pengguna.",
+        "Berkolaborasi dengan anggota tim selama proses pengembangan.",
       ],
     },
 
@@ -217,7 +219,7 @@ const projects = [
       solution:
         "This project develops a data processing pipeline and machine learning model to predict bus travel times. GTFS Realtime transportation data is combined with weather data, processed through ETL and feature engineering, and then used to train a linear regression model.",
 
-      role: "Data Engineer & Machine Learning Developer",
+      role: "Data Engineer & Machine Learning Developer — Individual Project",
 
       contributions: [
         "Developed the project independently, covering the workflow from data collection and preprocessing to model evaluation.",
@@ -240,7 +242,7 @@ const projects = [
       solution:
         "Proyek ini mengembangkan pipeline pemrosesan data dan model machine learning untuk memprediksi waktu tempuh bus. Data transportasi dari GTFS Realtime digabungkan dengan data cuaca, kemudian diproses melalui tahap ETL dan feature engineering sebelum digunakan untuk melatih model linear regression.",
 
-      role: "Data Engineer & Machine Learning Developer",
+      role: "Data Engineer & Machine Learning Developer — Proyek Individu",
 
       contributions: [
         "Mengembangkan proyek secara mandiri, mulai dari pengumpulan dan preprocessing data hingga evaluasi model.",
@@ -648,7 +650,7 @@ function App() {
               </a>
 
               <a
-                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDPOcD-4TN8QpTu_2nTowNGAdVht_JiayETt_Rh2p6GAEM&e=eT1AOk"
+                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQBGZrJm3gY9QpyZELoV1R07Ae2s3kLisWC_q396rDEu-sM&e=rlgf5Y"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
@@ -656,7 +658,7 @@ function App() {
                 {t.hero.resume}
               </a>
               <a
-                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCaJ9KeNvFuQLJtUsbTzBJlAXGwzc_elxG2x8iywO8YIE8&e=Bemayx"
+                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCXh5dbAXXqRoPlMmKut6WuAa2Y1wCZqhLO2jy27avON9M&e=UbEVOk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
@@ -774,6 +776,11 @@ function App() {
               </div>
 
               <div className="tech-item">
+                <img src="images/tech/laravel.svg" alt="Laravel" />
+                <span>Laravel</span>
+              </div>
+
+              <div className="tech-item">
                 <img src="images/tech/nodejs.svg" alt="Node.js" />
                 <span>Node.js</span>
               </div>
@@ -831,6 +838,16 @@ function App() {
               <div className="tech-item">
                 <img src="images/tech/azure.svg" alt="Azure" />
                 <span>Azure</span>
+              </div>
+
+              <div className="tech-item">
+                <img src="images/tech/docker.svg" alt="docker" />
+                <span>Docker</span>
+              </div>
+
+              <div className="tech-item">
+                <img src="images/tech/kubernetes.svg" alt="kubernetes" />
+                <span>Kubernetes</span>
               </div>
             </div>
           </div>
@@ -943,7 +960,10 @@ function App() {
           <div className="experience-tags">
             <span>C#</span>
             <span>ASP.NET</span>
+            <span>JavaScript</span>
+            <span>React</span>
             <span>TypeScript</span>
+            <span>CSS</span>
             <span>SQL</span>
             <span>NoSQL</span>
           </div>
