@@ -650,7 +650,7 @@ function App() {
               </a>
 
               <a
-                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQBGZrJm3gY9QpyZELoV1R07Ae2s3kLisWC_q396rDEu-sM&e=rlgf5Y"
+                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCR64NjrvFPTJqGdnrnmQQEAbxArlA0xvjMaAKPiC9EtlA&e=3VXu6I"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
@@ -658,7 +658,7 @@ function App() {
                 {t.hero.resume}
               </a>
               <a
-                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCXh5dbAXXqRoPlMmKut6WuAa2Y1wCZqhLO2jy27avON9M&e=UbEVOk"
+                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAqRzKKMkgJQb_jpeUOPtGYASd0tp2QTO59HwMQiN-irJ8&e=SIDcQ9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
