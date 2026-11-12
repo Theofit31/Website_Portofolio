@@ -3,6 +3,165 @@ import "./App.css";
 const projects = [
   {
     projectId: 1,
+    title: "BelanjaYuk",
+
+    en: {
+      type: "Full-Stack E-Commerce Web Application",
+
+      description:
+        "An e-commerce web application built with ASP.NET Core 8, using a separate frontend and backend API to support product browsing, shopping cart, checkout, order history, and seller management.",
+
+      problem:
+        "Customers need a convenient way to purchase products online, while sellers need one platform to manage their stores, products, inventory, and orders. Handling these activities separately can make the shopping and store-management process less efficient.",
+
+      solution:
+        "BelanjaYuk provides an e-commerce platform with a separate WebClient frontend and Backend API. Customers can register, log in, browse products, add items to their cart, check out, and view their order history. Sellers can register their stores and manage products through a seller dashboard.",
+
+      role: "Full-Stack Developer — Individual Project (IT Bootcamp Basic AMJS 2026 Mini Project)",
+
+      contributions: [
+        "Developed the backend API using ASP.NET Core Web API and C#.",
+        "Built the frontend using ASP.NET Core Razor Pages and integrated it with the backend API through HTTP requests.",
+        "Implemented Entity Framework Core and LINQ for database access and data management with SQL Server.",
+        "Developed user authentication, product management, and product category features through the API.",
+        "Implemented shopping cart, checkout, and order history features.",
+        "Developed seller registration, seller dashboard, and product management features.",
+        "Prepared the database structure, table relationships, migrations, and SQL scripts.",
+      ],
+    },
+
+    id: {
+      type: "Aplikasi Web E-Commerce Full-Stack",
+
+      description:
+        "Aplikasi web e-commerce yang dikembangkan menggunakan ASP.NET Core 8 dengan pemisahan frontend dan backend API, serta fitur katalog produk, keranjang belanja, checkout, riwayat pesanan, dan manajemen seller.",
+
+      problem:
+        "Pengguna membutuhkan platform yang memudahkan proses pembelian produk secara online. Di sisi lain, penjual juga membutuhkan sistem untuk mengelola toko, produk, stok, dan pesanan dalam satu aplikasi.",
+
+      solution:
+        "BelanjaYuk adalah aplikasi web e-commerce yang menggunakan arsitektur terpisah antara Frontend (WebClient) dan Backend API. Pengguna dapat melakukan registrasi, login, menjelajahi produk, menambahkan barang ke keranjang, melakukan checkout, serta melihat riwayat pesanan. Penjual dapat mendaftarkan toko dan mengelola produk melalui dashboard seller.",
+
+      role: "Full-Stack Developer — Proyek Individu (Mini Project IT Bootcamp Basic AMJS 2026)",
+
+      contributions: [
+        "Mengembangkan Backend API menggunakan ASP.NET Core Web API dengan bahasa C#.",
+        "Membangun frontend menggunakan ASP.NET Core Razor Pages dan mengintegrasikannya dengan Backend API melalui HTTP request.",
+        "Mengimplementasikan Entity Framework Core dan LINQ untuk pengelolaan serta pengambilan data dari SQL Server.",
+        "Mengembangkan fitur autentikasi pengguna, pengelolaan produk, dan kategori melalui API.",
+        "Mengimplementasikan fitur keranjang belanja, checkout, dan riwayat pesanan.",
+        "Mengembangkan fitur registrasi seller, dashboard, serta manajemen produk.",
+        "Menyiapkan struktur database, relasi tabel, migration, dan SQL script untuk mendukung kebutuhan aplikasi.",
+      ],
+    },
+
+    technologies: [
+      "C#",
+      "ASP.NET Core 8",
+      "ASP.NET Core Web API",
+      "ASP.NET Core Razor Pages",
+      "Entity Framework Core",
+      "SQL Server",
+      "LINQ",
+      "RESTful API",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+
+    github: "https://github.com/Theofit31/belanjayuk-ecommerce",
+
+    cover: "/images/projects/belanjaYuk/preview.png",
+
+    images: [
+      "/images/projects/belanjaYuk/home.png",
+      "/images/projects/belanjaYuk/seller_registration.png",
+      "/images/projects/belanjaYuk/seller_dashboard.png",
+      "/images/projects/belanjaYuk/product_management.png",
+      "/images/projects/belanjaYuk/shopping_cart.png",
+      "/images/projects/belanjaYuk/order_history.png",
+    ],
+  },
+
+  {
+    projectId: 2,
+    title: "RentCar",
+
+    en: {
+      type: "Car Rental Management System | Full-Stack Web Application",
+
+      description:
+        "A full-stack car rental web application built with ASP.NET Core MVC (.NET 8) to manage vehicle listings, customer bookings, rental history, and administrative transactions.",
+
+      problem:
+        "Car rental operations require structured management of vehicles, bookings, customers, and transactions. Manual processes can make it difficult for customers to find available vehicles and for administrators to monitor rental activities.",
+
+      solution:
+        "RentCar allows customers to browse available vehicles, view vehicle details, make rental bookings, and check their rental history. It also provides an administrator dashboard to manage vehicles, customer data, and rental transactions.",
+
+      role: "Full-Stack Developer — Individual Project (IT Division Selection Project)",
+
+      contributions: [
+        "Developed the backend using ASP.NET Core MVC and C#.",
+        "Implemented Entity Framework Core and LINQ for database operations and data retrieval.",
+        "Designed database models and relationships using SQL Server.",
+        "Developed authentication, vehicle search and listing, booking, and rental history features.",
+        "Built administrator pages to manage vehicles, customers, and rental transactions.",
+        "Developed the user interface using HTML, CSS, JavaScript, and Bootstrap.",
+      ],
+    },
+
+    id: {
+      type: "Sistem Manajemen Penyewaan Mobil | Aplikasi Web Full-Stack",
+
+      description:
+        "Aplikasi web penyewaan mobil untuk mengelola informasi kendaraan, pemesanan, pelanggan, dan transaksi menggunakan ASP.NET Core MVC (.NET 8).",
+
+      problem:
+        "Proses penyewaan mobil membutuhkan sistem yang dapat mengelola informasi kendaraan, pemesanan, pelanggan, dan transaksi secara terstruktur. Pengelolaan secara manual dapat menyulitkan pelanggan dalam mencari kendaraan dan administrator dalam memantau aktivitas penyewaan.",
+
+      solution:
+        "RentCar memungkinkan pelanggan melihat kendaraan yang tersedia, mendapatkan informasi detail kendaraan, melakukan pemesanan, serta melihat riwayat penyewaan. Aplikasi juga menyediakan dashboard administrator untuk mengelola kendaraan, data pelanggan, dan transaksi penyewaan.",
+
+      role: "Full-Stack Developer — Proyek Individu (IT Division Selection Project)",
+
+      contributions: [
+        "Mengembangkan backend menggunakan ASP.NET Core MVC dengan bahasa C#.",
+        "Mengimplementasikan Entity Framework Core dan LINQ untuk pengelolaan serta pengambilan data dari database.",
+        "Merancang model dan relasi database menggunakan SQL Server.",
+        "Mengembangkan fitur autentikasi, pencarian dan penampilan kendaraan, pemesanan, serta riwayat penyewaan.",
+        "Membangun halaman administrator untuk pengelolaan kendaraan, pelanggan, dan transaksi.",
+        "Mengembangkan antarmuka menggunakan HTML, CSS, JavaScript, dan Bootstrap.",
+      ],
+    },
+
+    technologies: [
+      "C#",
+      "ASP.NET Core MVC (.NET 8)",
+      "Entity Framework Core",
+      "SQL Server",
+      "LINQ",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+
+    github: "https://github.com/Theofit31/rentcar-web-application",
+
+    cover: "/images/projects/carRental/home.png",
+
+    images: [
+      "/images/projects/carRental/home.png",
+      "/images/projects/carRental/carRental.png",
+      "/images/projects/carRental/myRental.png",
+      "/images/projects/carRental/adminDashboard.png",
+      "/images/projects/carRental/vehicleManagement.png",
+    ],
+  },
+
+  {
+    projectId: 3,
     title: "NeuroNote",
 
     en: {
@@ -65,7 +224,7 @@ const projects = [
   },
 
   {
-    projectId: 2,
+    projectId: 4,
     title: "Car Dealership Finder",
 
     en: {
@@ -127,7 +286,7 @@ const projects = [
   },
 
   {
-    projectId: 3,
+    projectId: 5,
     title: "Calcurify",
 
     en: {
@@ -204,7 +363,7 @@ const projects = [
   },
 
   {
-    projectId: 4,
+    projectId: 6,
     title: "Bus Travel Time Prediction",
 
     en: {
@@ -263,7 +422,7 @@ const projects = [
   },
 
   {
-    projectId: 5,
+    projectId: 7,
     title: "Bridge Concrete Damage Detection",
 
     en: {
