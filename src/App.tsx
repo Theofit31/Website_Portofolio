@@ -149,7 +149,7 @@ const projects = [
 
     github: "https://github.com/Theofit31/rentcar-web-application",
 
-    cover: "/images/projects/carRental/home.png",
+    cover: "/images/projects/carRental/preview.png",
 
     images: [
       "/images/projects/carRental/home.png",
