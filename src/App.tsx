@@ -710,11 +710,21 @@ const translations = {
     },
   },
 };
+const documentLinks = {
+  id: {
+    resume: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQC0fdooSKuZQI7POa4TqD_3Ae0406dKCZUFDQY84482Qok&e=JJ1EUA",
+    portfolio: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCtc5mCN0TqTpCRtJHuxkMYAQ185403M2dutpLFVC5nw1Q&e=0kbrNa",
+  },
+  en: {
+    resume: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAu5kAL6Yf6QqjprEEHzRaVAcq5-YS40sHAIIoWYK0qf4I&e=9w2RGj",
+    portfolio: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDXMSHANvfGRbEeoQJUCjaDAedTH0fHeQUkgDOmeKA6EeY&e=fyhxR8",
+  },
+};
 function App() {
   const [language, setLanguage] = useState<"id" | "en">("id");
 
   const t = translations[language];
-
+  const currentDocuments = documentLinks[language];
   const [selectedProject, setSelectedProject] = useState<
     (typeof projects)[number] | null
   >(null);
@@ -804,20 +814,17 @@ function App() {
             <p className="hero-description">{t.hero.description}</p>
 
             <div className="hero-buttons">
-              <a href="#projects" className="btn btn-primary">
-                {t.hero.projects}
-              </a>
-
               <a
-                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDYr08bfR5eQK4maUhS87nXAbvVFhBRDUC4g0d_Dg3waRE&e=7gU8ZP"
+                href={currentDocuments.resume}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
               >
                 {t.hero.resume}
               </a>
+
               <a
-                href="https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCtc5mCN0TqTpCRtJHuxkMYAQ185403M2dutpLFVC5nw1Q&e=hRuv2g"
+                href={currentDocuments.portfolio}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
