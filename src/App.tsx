@@ -496,6 +496,163 @@ const projects = [
       "/images/projects/bridge-damage/roc-curve-xception.png",
     ],
   },
+  {
+    projectId: 8,
+    title: "Sales Performance Analysis Dashboard",
+
+    en: {
+      type: "Business Intelligence & Data Analytics Project",
+
+      description:
+        "An interactive Power BI dashboard analyzing Sample Superstore sales data from 2014 to 2017, covering key performance indicators, monthly sales trends, category and regional performance, and product sub-category profitability.",
+
+      problem:
+        "Businesses need to monitor and evaluate sales performance across different time periods, product categories, sub-categories, and geographical regions. Without integrated data visualization, identifying sales trends, profitability levels, and underperforming business areas can be challenging.",
+
+      solution:
+        "Developed an interactive dashboard using Microsoft Power BI to analyze Sample Superstore sales data from 2014 to 2017. The dashboard presents key performance indicators (KPIs), monthly sales trends, category and regional sales performance, and product sub-category profitability. It also includes interactive filters and a dedicated Business Insights & Recommendations page to support performance evaluation and data-driven decision-making.",
+
+      role: "Data Analyst & Business Intelligence Developer — Individual Project",
+
+      contributions: [
+        "Performed data cleaning, data quality checks, and dataset transformation using Power Query.",
+        "Created a Date Table and data relationships to support time-based sales analysis.",
+        "Developed DAX measures to calculate Total Revenue, Total Profit, Total Quantity, Profit Margin, and other performance indicators.",
+        "Designed an interactive dashboard using KPI Cards, Line Charts, Bar Charts, and Column Charts.",
+        "Implemented interactive slicers to filter sales data by year, product category, and region.",
+        "Identified Technology as the highest-performing category, generating $836.15K in revenue and $145.45K in profit.",
+        "Identified the West region as the highest revenue contributor, with $725.46K in revenue and $108.42K in profit.",
+        "Found that Copiers generated the highest sub-category profit at $55.62K, while Tables recorded the largest loss of approximately $17.73K.",
+        "Identified November 2017 as the highest monthly revenue period at approximately $118.45K, with an overall profit margin of 12.47%.",
+      ],
+    },
+
+    id: {
+      type: "Dashboard Business Intelligence & Analisis Data",
+
+      description:
+        "Dashboard interaktif menggunakan Microsoft Power BI untuk menganalisis data penjualan Sample Superstore periode 2014–2017, mencakup indikator kinerja utama, tren penjualan bulanan, performa kategori dan wilayah, serta profitabilitas subkategori produk.",
+
+      problem:
+        "Perusahaan perlu memantau dan mengevaluasi kinerja penjualan berdasarkan periode waktu, kategori produk, subkategori, dan wilayah. Tanpa visualisasi data yang terintegrasi, proses identifikasi tren penjualan, tingkat profitabilitas, serta area bisnis yang memerlukan perbaikan dapat menjadi lebih sulit.",
+
+      solution:
+        "Mengembangkan dashboard interaktif menggunakan Microsoft Power BI untuk menganalisis data penjualan Sample Superstore periode 2014–2017. Dashboard menyajikan indikator kinerja utama (KPI), tren penjualan bulanan, analisis penjualan berdasarkan kategori dan wilayah, serta analisis keuntungan berdasarkan subkategori produk. Dilengkapi dengan filter interaktif dan halaman Business Insights & Recommendations untuk mendukung evaluasi performa dan pengambilan keputusan berbasis data.",
+
+      role: "Data Analyst & Business Intelligence Developer — Proyek Individu",
+
+      contributions: [
+        "Melakukan data cleaning, pemeriksaan kualitas data, dan transformasi dataset menggunakan Power Query.",
+        "Membangun Date Table dan relationship untuk mendukung analisis penjualan berdasarkan periode waktu.",
+        "Mengembangkan DAX Measures untuk menghitung Total Revenue, Total Profit, Total Quantity, Profit Margin, dan indikator kinerja lainnya.",
+        "Merancang dashboard interaktif menggunakan KPI Cards, Line Chart, Bar Chart, dan Column Chart.",
+        "Mengimplementasikan interactive slicers untuk memfilter data berdasarkan tahun, kategori produk, dan wilayah.",
+        "Mengidentifikasi Technology sebagai kategori dengan revenue tertinggi sebesar $836.15K dan profit sebesar $145.45K.",
+        "Mengidentifikasi West sebagai wilayah dengan revenue tertinggi sebesar $725.46K dan profit sebesar $108.42K.",
+        "Menemukan bahwa Copiers menghasilkan profit tertinggi pada tingkat subkategori sebesar $55.62K, sedangkan Tables mengalami kerugian terbesar sekitar $17.73K.",
+        "Mengidentifikasi November 2017 sebagai periode dengan revenue bulanan tertinggi sekitar $118.45K, dengan total profit margin keseluruhan sebesar 12.47%.",
+      ],
+    },
+
+    technologies: [
+      "Microsoft Power BI",
+      "Power Query",
+      "DAX",
+      "CSV",
+      "Data Visualization",
+      "Data Modeling",
+    ],
+
+    github:
+      "https://github.com/Theofit31/sales-performance-analysis-dashboard",
+
+    cover: "/images/projects/sales-performance-analysis/dashboard-overview.png",
+
+    images: [
+      "/images/projects/sales-performance-analysis/dashboard-overview.png",
+      "/images/projects/sales-performance-analysis/business-insights.png",
+    ],
+  },
+  {
+    projectId: 9,
+    title: "Financial Transaction Fraud Analysis",
+
+    en: {
+      type: "Financial Transaction Data Analysis & Business Intelligence Dashboard",
+
+      description:
+        "A data analytics project using the PaySim Synthetic Financial Dataset to identify fraudulent transaction patterns based on transaction types, transaction timing, and transaction amounts using Python, PostgreSQL, and Microsoft Power BI.",
+
+      problem:
+        "Monitoring and identifying fraudulent transaction patterns can be challenging when dealing with large volumes of financial transactions. Fraudulent transactions also represent a very small proportion of total transaction activity, making systematic data processing and analysis necessary to understand fraud distributions, characteristics, and patterns.",
+
+      solution:
+        "Developed a data analytics project using the PaySim Synthetic Financial Dataset to identify fraudulent transaction patterns. The project covers data understanding, data cleaning, feature engineering, and Exploratory Data Analysis (EDA) using Python, SQL-based aggregation using PostgreSQL, and dashboard development using Microsoft Power BI to present key performance indicators and analytical findings.",
+
+      role: "Data Analyst & Business Intelligence Developer — Individual Project",
+
+      contributions: [
+        "Performed data understanding and data quality assessments on a dataset containing 6,362,620 transactions.",
+        "Conducted data cleaning, data type optimization, and feature engineering to create additional features such as hour_of_day, simulation_day, is_transfer_or_cashout, and amount_log.",
+        "Performed Exploratory Data Analysis (EDA) using Pandas, NumPy, and Matplotlib to identify transaction distributions and fraud patterns.",
+        "Used PostgreSQL to store the preprocessed dataset and developed SQL queries for overall fraud statistics, fraud rates by transaction type, fraud amount analysis, hourly fraud trends, and daily transaction monitoring.",
+        "Developed a Microsoft Power BI dashboard featuring KPI Cards and six visualizations to present key findings from the fraud analysis.",
+        "Identified 8,213 fraudulent transactions out of 6,362,620 transactions, representing an overall fraud rate of 0.1291%.",
+        "Found that TRANSFER transactions recorded the highest fraud rate at 0.7688%, approximately 4.18 times higher than CASH_OUT at 0.1840%.",
+        "Identified CASH_OUT as having the highest number of fraudulent transactions, with 4,116 cases compared to 4,097 TRANSFER cases.",
+        "Found that transactions between 03:00 and 04:00 showed the highest observed fraud rates (approximately 22.08%–22.30%), although transaction volumes during these hours were relatively low.",
+        "Identified total fraudulent transaction amounts of approximately 6.07 billion synthetic units for TRANSFER and 5.99 billion synthetic units for CASH_OUT.",
+      ],
+    },
+
+    id: {
+      type: "Analisis Data Transaksi Keuangan & Dashboard Business Intelligence",
+
+      description:
+        "Proyek analisis data menggunakan PaySim Synthetic Financial Dataset untuk mengidentifikasi pola transaksi fraud berdasarkan jenis transaksi, waktu transaksi, dan nominal transaksi menggunakan Python, PostgreSQL, dan Microsoft Power BI.",
+
+      problem:
+        "Transaksi keuangan dalam jumlah besar menyulitkan proses pemantauan dan identifikasi pola transaksi fraud. Selain itu, transaksi fraud memiliki proporsi yang sangat kecil dibandingkan transaksi normal, sehingga analisis distribusi, karakteristik, dan pola fraud memerlukan pengolahan data yang sistematis.",
+
+      solution:
+        "Mengembangkan proyek analisis data menggunakan PaySim Synthetic Financial Dataset untuk mengidentifikasi pola transaksi fraud berdasarkan jenis transaksi, waktu transaksi, dan nominal transaksi. Proyek ini mencakup proses data understanding, data cleaning, feature engineering, dan Exploratory Data Analysis (EDA) menggunakan Python, analisis agregasi menggunakan PostgreSQL, serta pengembangan dashboard menggunakan Microsoft Power BI untuk menyajikan indikator utama dan hasil analisis secara visual.",
+
+      role: "Data Analyst & Business Intelligence Developer — Proyek Individu",
+
+      contributions: [
+        "Melakukan data understanding dan pemeriksaan kualitas terhadap dataset yang berisi 6.362.620 transaksi.",
+        "Melakukan data cleaning, optimasi tipe data, dan feature engineering untuk menghasilkan fitur tambahan seperti hour_of_day, simulation_day, is_transfer_or_cashout, dan amount_log.",
+        "Melakukan Exploratory Data Analysis (EDA) menggunakan Pandas, NumPy, dan Matplotlib untuk mengidentifikasi distribusi serta pola transaksi fraud.",
+        "Menggunakan PostgreSQL untuk menyimpan data hasil preprocessing dan mengembangkan query SQL untuk analisis statistik fraud, fraud rate berdasarkan jenis transaksi, nominal fraud, tren per jam, dan monitoring harian.",
+        "Mengembangkan dashboard menggunakan Microsoft Power BI yang terdiri dari KPI Cards dan enam visualisasi untuk menyajikan hasil analisis transaksi fraud.",
+        "Mengidentifikasi 8.213 transaksi fraud dari total 6.362.620 transaksi dengan fraud rate keseluruhan sebesar 0,1291%.",
+        "Menemukan bahwa jenis transaksi TRANSFER memiliki fraud rate tertinggi sebesar 0,7688%, sekitar 4,18 kali lebih tinggi dibandingkan CASH_OUT sebesar 0,1840%.",
+        "Mengidentifikasi CASH_OUT sebagai jenis transaksi dengan jumlah fraud terbanyak, yaitu 4.116 transaksi dibandingkan TRANSFER sebanyak 4.097 transaksi.",
+        "Menemukan bahwa transaksi antara pukul 03.00–04.00 memiliki fraud rate tertinggi sekitar 22,08%–22,30%, meskipun volume transaksi pada periode tersebut relatif rendah.",
+        "Mengidentifikasi total nominal transaksi fraud pada TRANSFER sekitar 6,07 miliar satuan sintetis, sedangkan CASH_OUT sekitar 5,99 miliar satuan sintetis.",
+      ],
+    },
+
+    technologies: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Jupyter Notebook",
+      "PostgreSQL",
+      "SQL",
+      "Microsoft Power BI",
+      "DAX",
+    ],
+
+    github:
+      "https://github.com/Theofit31/financial-transaction-fraud-analysis",
+
+    cover: "/images/projects/financial-transaction-fraud-analysis/dashboard_preview.png",
+    images: [
+      "/images/projects/financial-transaction-fraud-analysis/dashboard_preview.png",
+    ],
+  },
 ];
 const translations = {
   en: {
@@ -512,7 +669,7 @@ const translations = {
       name: "I'm Theo",
       title: "Full-Stack Developer",
       description:
-        "Computer Science and Mathematics student with a strong interest in building web applications, AI-powered systems, and data-driven solutions.",
+        "Final-year Double Degree student in Computer Science and Mathematics with experience in full-stack development, data analytics, business intelligence, AI/ML, and data engineering.",
       projects: "View My Projects",
       resume: "View My Resume",
       portfolio: "View Portfolio PDF",
@@ -524,17 +681,13 @@ const translations = {
       titleHighlight: "digital solutions",
       titleEnd: "with code.",
       description:
-        "I am a Computer Science and Mathematics student at BINUS University with hands-on experience in full-stack web development, backend integration, AI/ML, and data engineering.",
-
+        "I am a final-year Double Degree student in Computer Science and Mathematics at BINUS University with experience in full-stack web development, data analytics, business intelligence, AI/ML, and data engineering.",
       who: "WHO I AM",
       student: "Computer Science and Mathematics Student",
-
       paragraph1:
-        "I enjoy building web applications and turning ideas into practical digital solutions. My experience includes developing frontend and backend systems, integrating APIs, working with databases, and exploring AI and machine learning projects.",
-
+        "My experience includes developing full-stack web applications using C# with ASP.NET Core, PHP with Laravel, as well as JavaScript, TypeScript, React, and Node.js. I also have experience building and integrating REST APIs, managing databases, developing ETL pipelines using PySpark, and performing data cleaning and Exploratory Data Analysis (EDA) using Python. Additionally, I work with SQL and PostgreSQL for data analysis and build interactive dashboards using Microsoft Power BI to generate meaningful business insights.",
       paragraph2:
-        "I am particularly interested in software development, full-stack development, and using technology to solve real-world problems.",
-
+        "I am particularly interested in software development, data analytics, business intelligence, and data engineering, with a focus on building practical solutions and leveraging data to support better decision-making.",
       technologies: "TECHNOLOGIES",
       techStack: "Tech Stack",
     },
@@ -618,7 +771,7 @@ const translations = {
       name: "Saya Theo",
       title: "Full-Stack Developer",
       description:
-        "Mahasiswa Computer Science and Mathematics yang memiliki ketertarikan dalam membangun aplikasi web, sistem berbasis AI, dan solusi berbasis data.",
+        "Mahasiswa tingkat akhir program Double Degree Computer Science dan Mathematics dengan pengalaman dalam pengembangan aplikasi full-stack, analisis data, Business Intelligence, AI/ML, dan data engineering.",
       projects: "Lihat Proyek Saya",
       resume: "Lihat CV Saya",
       portfolio: "Lihat Portfolio PDF",
@@ -630,17 +783,13 @@ const translations = {
       titleHighlight: "solusi digital",
       titleEnd: "dengan kode.",
       description:
-        "Saya adalah mahasiswa Computer Science and Mathematics di BINUS University dengan pengalaman langsung dalam pengembangan web full-stack, integrasi backend, AI/ML, dan data engineering.",
-
+        "Saya adalah mahasiswa tingkat akhir program Double Degree Computer Science dan Mathematics di BINUS University dengan pengalaman dalam pengembangan web full-stack, analisis data, Business Intelligence, AI/ML, dan data engineering.",
       who: "SIAPA SAYA",
       student: "Mahasiswa Computer Science and Mathematics",
-
       paragraph1:
-        "Saya senang membangun aplikasi web dan mengubah ide menjadi solusi digital yang praktis. Pengalaman saya mencakup pengembangan sistem frontend dan backend, integrasi API, penggunaan database, serta pengembangan berbagai proyek AI dan machine learning.",
-
+        "Pengalaman saya mencakup pengembangan aplikasi web full-stack menggunakan C# dengan ASP.NET Core, PHP dengan Laravel, serta JavaScript, TypeScript, React, dan Node.js. Saya juga memiliki pengalaman dalam membangun dan mengintegrasikan REST API, mengelola database, membangun pipeline ETL menggunakan PySpark, serta melakukan data cleaning dan Exploratory Data Analysis (EDA) menggunakan Python. Selain itu, saya terbiasa menganalisis data menggunakan SQL dan PostgreSQL serta membangun dashboard interaktif menggunakan Microsoft Power BI untuk menghasilkan insight bisnis yang bermakna.",
       paragraph2:
-        "Saya memiliki ketertarikan khusus pada software development, full-stack development, serta pemanfaatan teknologi untuk menyelesaikan berbagai permasalahan nyata.",
-
+        "Saya memiliki ketertarikan khusus pada software development, data analytics, business intelligence, dan data engineering, dengan fokus membangun solusi praktis serta memanfaatkan data untuk mendukung pengambilan keputusan yang lebih baik.",
       technologies: "TEKNOLOGI",
       techStack: "Tech Stack",
     },
@@ -712,12 +861,12 @@ const translations = {
 };
 const documentLinks = {
   id: {
-    resume: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQC0fdooSKuZQI7POa4TqD_3Ae0406dKCZUFDQY84482Qok&e=JJ1EUA",
-    portfolio: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCtc5mCN0TqTpCRtJHuxkMYAQ185403M2dutpLFVC5nw1Q&e=0kbrNa",
+    resume: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAZleOzH9m6Qou8kpm9JMuBAcO78fcSM84CKKF89hKvpes&e=A2rYCH",
+    portfolio: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQCtc5mCN0TqTpCRtJHuxkMYAQ185403M2dutpLFVC5nw1Q&e=3jwswd",
   },
   en: {
-    resume: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQAu5kAL6Yf6QqjprEEHzRaVAcq5-YS40sHAIIoWYK0qf4I&e=9w2RGj",
-    portfolio: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDXMSHANvfGRbEeoQJUCjaDAedTH0fHeQUkgDOmeKA6EeY&e=fyhxR8",
+    resume: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQBRDnYkKz68SpUSbs5IqBdMAWclOaG0QkR4dO-IbfV7Vlk&e=6mltYF",
+    portfolio: "https://binusianorg-my.sharepoint.com/personal/theo_triadi_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDXMSHANvfGRbEeoQJUCjaDAedTH0fHeQUkgDOmeKA6EeY&e=HAOnl0",
   },
 };
 function App() {
@@ -865,6 +1014,11 @@ function App() {
             <span>PHP</span>
             <span>Laravel</span>
             <span>SQL</span>
+            <span>SQL</span>
+            <span>PostgreSQL</span>
+            <span>Power BI</span>
+            <span>Power Query</span>
+            <span>DAX</span>
             <span>HTML</span>
             <span>CSS</span>
             <span>Bootstrap</span>
@@ -884,6 +1038,10 @@ function App() {
             <span>PHP</span>
             <span>Laravel</span>
             <span>SQL</span>
+            <span>PostgreSQL</span>
+            <span>Power BI</span>
+            <span>Power Query</span>
+            <span>DAX</span>
             <span>HTML</span>
             <span>CSS</span>
             <span>Bootstrap</span>
@@ -979,6 +1137,52 @@ function App() {
               <div className="tech-item">
                 <img src="images/tech/mysql.svg" alt="SQL" />
                 <span>SQL</span>
+              </div>
+
+              <div className="tech-item">
+                <img src="images/tech/postgre.svg" alt="PostgreSQL" />
+                <span>PostgreSQL</span>
+              </div>
+
+              <div className="tech-item">
+                <img src="images/tech/powerbi.svg" alt="Power BI" />
+                <span>Power BI</span>
+              </div>
+
+              <div className="tech-item">
+                <div
+                  style={{
+                    width: "48px",
+                    height: "48px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "22px",
+                    fontWeight: 800,
+                    color: "#F2C811",
+                  }}
+                >
+                  PQ
+                </div>
+                <span>Power Query</span>
+              </div>
+
+              <div className="tech-item">
+                <div
+                  style={{
+                    width: "48px",
+                    height: "48px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "22px",
+                    fontWeight: 800,
+                    color: "#F2C811",
+                  }}
+                >
+                  DAX
+                </div>
+                <span>DAX</span>
               </div>
 
               <div className="tech-item">
